@@ -1,0 +1,1435 @@
+{
+  "name": "scratch_card",
+  "type": "directory",
+  "children": [
+    {
+      "name": "lib",
+      "type": "directory",
+      "children": [
+        {
+          "name": "callback.dart",
+          "type": "file"
+        },
+        {
+          "name": "card_app.dart",
+          "type": "file"
+        },
+        {
+          "name": "card_logic",
+          "type": "directory",
+          "children": [
+            {
+              "name": "model",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "card_item.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "card_mode.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "game_config.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "game_data.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "modules",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "card_manager.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "com",
+          "type": "directory",
+          "children": [
+            {
+              "name": "config.dart",
+              "type": "file"
+            },
+            {
+              "name": "fonts.dart",
+              "type": "file"
+            },
+            {
+              "name": "func.dart",
+              "type": "file"
+            },
+            {
+              "name": "log.dart",
+              "type": "file"
+            },
+            {
+              "name": "random_tool.dart",
+              "type": "file"
+            },
+            {
+              "name": "text_styles.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "generated",
+          "type": "directory",
+          "children": [
+            {
+              "name": "assets.dart",
+              "type": "file"
+            },
+            {
+              "name": "intl",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "messages_all.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "messages_en.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "messages_pt.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "l10n.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "l10n",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app_localizations.dart",
+              "type": "file"
+            },
+            {
+              "name": "app_localizations_en.dart",
+              "type": "file"
+            },
+            {
+              "name": "app_localizations_pt.dart",
+              "type": "file"
+            },
+            {
+              "name": "intl_en.arb",
+              "type": "file"
+            },
+            {
+              "name": "intl_pt.arb",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "main.dart",
+          "type": "file"
+        },
+        {
+          "name": "modules",
+          "type": "directory",
+          "children": [
+            {
+              "name": "ad",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ad_log.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "ad_manager.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "ad_platform_handler.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "ad_state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "ad_unit.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "model",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "ad_config.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "ad_pos.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "ad_revenue_log.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "ad_unit.dart",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "app_life.dart",
+              "type": "file"
+            },
+            {
+              "name": "audio",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "audio_type.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "card_audio.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "checkin",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": "event",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ad.json",
+                  "type": "file"
+                },
+                {
+                  "name": "card_event.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "install.json",
+                  "type": "file"
+                },
+                {
+                  "name": "model",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "event_scene.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "net_manager.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "session.json",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "guide",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "guide_manager.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "notify_manager.dart",
+              "type": "file"
+            },
+            {
+              "name": "player",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "player_manager.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "remote",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "remote_manager.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "reward",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "reward_manager.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "sp",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": "taskwall",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "taskwall_manager.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pages",
+          "type": "directory",
+          "children": [
+            {
+              "name": "cash",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "logic.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "game_base",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "collector",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "collector_area.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "dialog",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "lose_dialog.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "more_card_dialog.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "dog",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "dog_area.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "fruit",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "fruit_area_widget.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "fruit_item_widget.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "king",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "king_area_widget.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "king_item_widget.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "logic.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "lucky",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "lucky7_area.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "lucky_item.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "model",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "scratcher_config.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "number",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "number_area_widget.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "number_item_widget.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "widget",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "collect_item.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "dash_container.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "dog_item.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "game_notify.dart",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "home",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "dialog",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "level_up_dialog.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "payout",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "cash_out_dialog.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_suc_dialog.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "mission_dialog.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "not_enough_dialog.dart",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "unlock_theme_dialog.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "logic.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "model",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "cash_out",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "cash_out.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out.freezed.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out.g.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_mission.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_mission.freezed.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_mission.g.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_record.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_record.freezed.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_out_record.g.dart",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "player.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "unlock_theme_usage_example.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "widget",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "animated_cash_text.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "card_content.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "card_debug.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "cash_content.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "cash_out",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "email_text_field.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "mission_widget.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "universal_text_field.dart",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cash_out_money.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "gradient_stroke_text.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "guide_hand.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "stroked_text.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "wheel_content.dart",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "loading",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "logic.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "reward",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "big_win_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "reward_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "widget",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "light.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "money_fly_dialog.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "reward_claim.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "reward_double.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "reward_money.dart",
+                      "type": "file"
+                    },
+                    {
+                      "name": "reward_text.dart",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "route",
+          "type": "directory",
+          "children": [
+            {
+              "name": "card_route.dart",
+              "type": "file"
+            },
+            {
+              "name": "router.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "service",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app_bg_service.dart",
+              "type": "file"
+            },
+            {
+              "name": "cash_out_service.dart",
+              "type": "file"
+            },
+            {
+              "name": "sp_service.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "util",
+          "type": "directory",
+          "children": [
+            {
+              "name": "debounce_example.dart",
+              "type": "file"
+            },
+            {
+              "name": "debounce_util.dart",
+              "type": "file"
+            },
+            {
+              "name": "dialog_util.dart",
+              "type": "file"
+            },
+            {
+              "name": "language_ex.dart",
+              "type": "file"
+            },
+            {
+              "name": "network_util.dart",
+              "type": "file"
+            },
+            {
+              "name": "time_util.dart",
+              "type": "file"
+            },
+            {
+              "name": "ui_ex.dart",
+              "type": "file"
+            },
+            {
+              "name": "ui_util.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "widget",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app_bg.dart",
+              "type": "file"
+            },
+            {
+              "name": "controll",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "anim_dialog_lock.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "custom_progress_bar.dart",
+              "type": "file"
+            },
+            {
+              "name": "dialog",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "daily_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "dialog_base.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "dialog_content_bg.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "dialog_settings.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "no_ad_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "no_net_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "task_wall_dialog.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "gradient_text.dart",
+              "type": "file"
+            },
+            {
+              "name": "green_bt.dart",
+              "type": "file"
+            },
+            {
+              "name": "header",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "card_header.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "money_widget.dart",
+              "type": "file"
+            },
+            {
+              "name": "more_game_widget.dart",
+              "type": "file"
+            },
+            {
+              "name": "red_point.dart",
+              "type": "file"
+            },
+            {
+              "name": "scale_text.dart",
+              "type": "file"
+            },
+            {
+              "name": "title_widget.dart",
+              "type": "file"
+            },
+            {
+              "name": "wheel",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "wheel_dialog.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "wheel_widget.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "yellow_bt.dart",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "android",
+      "type": "directory",
+      "children": [
+        {
+          "name": ".gitignore",
+          "type": "file"
+        },
+        {
+          "name": ".gradle",
+          "type": "directory",
+          "children": [
+            {
+              "name": "8.12",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "checksums",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "checksums.lock",
+                      "type": "file"
+                    },
+                    {
+                      "name": "md5-checksums.bin",
+                      "type": "file"
+                    },
+                    {
+                      "name": "sha1-checksums.bin",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "executionHistory",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "executionHistory.bin",
+                      "type": "file"
+                    },
+                    {
+                      "name": "executionHistory.lock",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "expanded",
+                  "type": "directory",
+                  "children": []
+                },
+                {
+                  "name": "fileChanges",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "last-build.bin",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "fileHashes",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "fileHashes.bin",
+                      "type": "file"
+                    },
+                    {
+                      "name": "fileHashes.lock",
+                      "type": "file"
+                    },
+                    {
+                      "name": "resourceHashesCache.bin",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "gc.properties",
+                  "type": "file"
+                },
+                {
+                  "name": "vcsMetadata",
+                  "type": "directory",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "buildOutputCleanup",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "buildOutputCleanup.lock",
+                  "type": "file"
+                },
+                {
+                  "name": "cache.properties",
+                  "type": "file"
+                },
+                {
+                  "name": "outputFiles.bin",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "config.properties",
+              "type": "file"
+            },
+            {
+              "name": "file-system.probe",
+              "type": "file"
+            },
+            {
+              "name": "noVersion",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "buildLogic.lock",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "vcs-1",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "gc.properties",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".idea",
+          "type": "directory",
+          "children": [
+            {
+              "name": ".gitignore",
+              "type": "file"
+            },
+            {
+              "name": "AndroidProjectSystem.xml",
+              "type": "file"
+            },
+            {
+              "name": "assetWizardSettings.xml",
+              "type": "file"
+            },
+            {
+              "name": "caches",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "deviceStreaming.xml",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "deploymentTargetSelector.xml",
+              "type": "file"
+            },
+            {
+              "name": "gradle.xml",
+              "type": "file"
+            },
+            {
+              "name": "kotlinc.xml",
+              "type": "file"
+            },
+            {
+              "name": "migrations.xml",
+              "type": "file"
+            },
+            {
+              "name": "misc.xml",
+              "type": "file"
+            },
+            {
+              "name": "runConfigurations.xml",
+              "type": "file"
+            },
+            {
+              "name": "vcs.xml",
+              "type": "file"
+            },
+            {
+              "name": "workspace.xml",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": ".kotlin",
+          "type": "directory",
+          "children": [
+            {
+              "name": "sessions",
+              "type": "directory",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "app",
+          "type": "directory",
+          "children": [
+            {
+              "name": "build.gradle.kts",
+              "type": "file"
+            },
+            {
+              "name": "src",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "debug",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "AndroidManifest.xml",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "main",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": ".DS_Store",
+                      "type": "file"
+                    },
+                    {
+                      "name": "AndroidManifest.xml",
+                      "type": "file"
+                    },
+                    {
+                      "name": "ic_launcher-playstore.png",
+                      "type": "file"
+                    },
+                    {
+                      "name": "java",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "io",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "flutter",
+                              "type": "directory",
+                              "children": [
+                                {
+                                  "name": "plugins",
+                                  "type": "directory",
+                                  "children": [
+                                    {
+                                      "name": "GeneratedPluginRegistrant.java",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "kotlin",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "demo",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "tds",
+                              "type": "directory",
+                              "children": [
+                                {
+                                  "name": "scratch_card",
+                                  "type": "directory",
+                                  "children": [
+                                    {
+                                      "name": "MainActivity.kt",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "res",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": ".DS_Store",
+                          "type": "file"
+                        },
+                        {
+                          "name": "drawable",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher_background.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "launch_background.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "logo.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-v21",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "launch_background.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-anydpi-v26",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-hdpi",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.webp",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-mdpi",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.webp",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xhdpi",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.webp",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xxhdpi",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.webp",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xxxhdpi",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.webp",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.webp",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "values",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "styles.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "values-night",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "styles.xml",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "profile",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "AndroidManifest.xml",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "build.gradle.kts",
+          "type": "file"
+        },
+        {
+          "name": "gradle",
+          "type": "directory",
+          "children": [
+            {
+              "name": "wrapper",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "gradle-wrapper.jar",
+                  "type": "file"
+                },
+                {
+                  "name": "gradle-wrapper.properties",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gradle.properties",
+          "type": "file"
+        },
+        {
+          "name": "gradlew",
+          "type": "file"
+        },
+        {
+          "name": "gradlew.bat",
+          "type": "file"
+        },
+        {
+          "name": "local.properties",
+          "type": "file"
+        },
+        {
+          "name": "scratch_card_android.iml",
+          "type": "file"
+        },
+        {
+          "name": "settings.gradle.kts",
+          "type": "file"
+        }
+      ]
+    }
+  ]
+}

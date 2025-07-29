@@ -6,7 +6,7 @@ import 'package:args/args.dart';
 // --- 常量定义 ---
 const String commandGenerate = 'generate';
 const String commandRecreate = 'recreate';
-const String defaultJsonOutput = 'project_structure.json';
+const String defaultJsonOutput = 'structures/project_structure.json';
 
 /// 主函数 - 脚本入口
 void main(List<String> arguments) {

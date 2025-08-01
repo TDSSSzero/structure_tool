@@ -270,6 +270,20 @@
               "type": "file"
             },
             {
+              "name": "number_check",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "number_check_manager.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "risk_check_config.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
               "name": "player",
               "type": "directory",
               "children": [
@@ -343,6 +357,10 @@
               "type": "directory",
               "children": [
                 {
+                  "name": "README_WIN_ANIMATION.md",
+                  "type": "file"
+                },
+                {
                   "name": "collector",
                   "type": "directory",
                   "children": [
@@ -391,6 +409,20 @@
                   ]
                 },
                 {
+                  "name": "game_state_machine.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "interfaces",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "win_animation_controller.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
                   "name": "king",
                   "type": "directory",
                   "children": [
@@ -418,6 +450,16 @@
                     },
                     {
                       "name": "lucky_item.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "managers",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "win_animation_manager.dart",
                       "type": "file"
                     }
                   ]
@@ -471,10 +513,46 @@
                       "type": "file"
                     },
                     {
+                      "name": "fly_anim_widget.dart",
+                      "type": "file"
+                    },
+                    {
                       "name": "game_notify.dart",
                       "type": "file"
                     }
                   ]
+                },
+                {
+                  "name": "widgets",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "animated_win_item.dart",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "z_scratch_test.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "game_wheel",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "logic.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "state.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view.dart",
+                  "type": "file"
                 }
               ]
             },
@@ -486,6 +564,10 @@
                   "name": "dialog",
                   "type": "directory",
                   "children": [
+                    {
+                      "name": "get_wheel_dialog.dart",
+                      "type": "file"
+                    },
                     {
                       "name": "level_up_dialog.dart",
                       "type": "file"
@@ -500,6 +582,10 @@
                         },
                         {
                           "name": "cash_out_suc_dialog.dart",
+                          "type": "file"
+                        },
+                        {
+                          "name": "cash_reach_dialog.dart",
                           "type": "file"
                         },
                         {
@@ -576,10 +662,6 @@
                 },
                 {
                   "name": "state.dart",
-                  "type": "file"
-                },
-                {
-                  "name": "unlock_theme_usage_example.dart",
                   "type": "file"
                 },
                 {
@@ -713,6 +795,16 @@
           ]
         },
         {
+          "name": "pigeon",
+          "type": "directory",
+          "children": [
+            {
+              "name": "deviceInfo.g.dart",
+              "type": "file"
+            }
+          ]
+        },
+        {
           "name": "route",
           "type": "directory",
           "children": [
@@ -779,6 +871,10 @@
             {
               "name": "ui_util.dart",
               "type": "file"
+            },
+            {
+              "name": "unique_util.dart",
+              "type": "file"
             }
           ]
         },
@@ -786,6 +882,16 @@
           "name": "widget",
           "type": "directory",
           "children": [
+            {
+              "name": "animation",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "win_animation_manager.dart",
+                  "type": "file"
+                }
+              ]
+            },
             {
               "name": "app_bg.dart",
               "type": "file"
@@ -833,10 +939,32 @@
                   "type": "file"
                 },
                 {
+                  "name": "rv_limited_dialog.dart",
+                  "type": "file"
+                },
+                {
                   "name": "task_wall_dialog.dart",
                   "type": "file"
                 }
               ]
+            },
+            {
+              "name": "double_gradient_stroke_text.dart",
+              "type": "file"
+            },
+            {
+              "name": "game",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "game_album_widget.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "gradient_progress_bar.dart",
+              "type": "file"
             },
             {
               "name": "gradient_text.dart",
@@ -873,6 +1001,16 @@
               "type": "file"
             },
             {
+              "name": "test",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "double_g.dart",
+                  "type": "file"
+                }
+              ]
+            },
+            {
               "name": "title_widget.dart",
               "type": "file"
             },
@@ -902,6 +1040,10 @@
       "name": "android",
       "type": "directory",
       "children": [
+        {
+          "name": ".DS_Store",
+          "type": "file"
+        },
         {
           "name": ".gitignore",
           "type": "file"
@@ -1114,6 +1256,10 @@
           "type": "directory",
           "children": [
             {
+              "name": ".DS_Store",
+              "type": "file"
+            },
+            {
               "name": "build.gradle.kts",
               "type": "file"
             },
@@ -1194,6 +1340,26 @@
                                     {
                                       "name": "MainActivity.kt",
                                       "type": "file"
+                                    },
+                                    {
+                                      "name": "pigeons",
+                                      "type": "directory",
+                                      "children": [
+                                        {
+                                          "name": "DeviceInfo.g.kt",
+                                          "type": "file"
+                                        },
+                                        {
+                                          "name": "impl",
+                                          "type": "directory",
+                                          "children": [
+                                            {
+                                              "name": "DeviceInfoImpl.kt",
+                                              "type": "file"
+                                            }
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 }

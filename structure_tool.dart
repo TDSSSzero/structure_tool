@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:path/path.dart' as p;
 import 'package:args/args.dart';
 
+//dart structure_tool.dart generate -s /Users/tb_daoyinglin/FlutterProject/scratch_card
+
 // --- 常量定义 ---
 const String commandGenerate = 'generate';
 const String commandRecreate = 'recreate';
